@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionAutomatedQA" parallel="tests" thread-count="3">
+
+ <test name="TC_01_CorrectLogin">
+<classes>
+<class name="loginTests.TC_01"/>
+</classes>
+</test> <!-- Test -->
+
+<test name="TC_02_IncorrectLogin">
+<classes>
+<class name="loginTests.TC_02"/>
+</classes>
+</test> <!-- Test -->
+
+<test name="TC_03_Logout">
+<classes>
+<class name="loginTests.TC_03"/>
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-27T02:01:22Z" name="Default suite" finished-at="2021-08-27T02:01:29Z" duration-ms="6669">
+  <suite started-at="2021-09-18T16:42:55Z" name="RegressionAutomatedQA" finished-at="2021-09-18T16:43:30Z" duration-ms="34272">
     <groups>
     </groups>
-    <test started-at="2021-08-27T02:01:22Z" name="Default test" finished-at="2021-08-27T02:01:29Z" duration-ms="6669">
-      <class name="NewTest">
-        <test-method signature="f()[pri:0, instance:NewTest@5fbdfdcf]" started-at="2021-08-26T21:01:22Z" name="f" finished-at="2021-08-26T21:01:29Z" duration-ms="6619" status="PASS">
+    <test started-at="2021-09-18T16:42:55Z" name="TC_02_IncorrectLogin" finished-at="2021-09-18T16:43:25Z" duration-ms="29235">
+      <class name="loginTests.TC_02">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTests.TC_02@d5ae57e]" started-at="2021-09-18T11:42:55Z" name="startWebDriver" finished-at="2021-09-18T11:43:11Z" duration-ms="15708" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_02_IncorrectLogin()[pri:0, instance:loginTests.TC_02@d5ae57e]" started-at="2021-09-18T11:43:11Z" name="TC_02_IncorrectLogin" finished-at="2021-09-18T11:43:21Z" duration-ms="9921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_IncorrectLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTests.TC_02@d5ae57e]" started-at="2021-09-18T11:43:21Z" name="closeDriver" finished-at="2021-09-18T11:43:25Z" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTests.TC_02 -->
+    </test> <!-- TC_02_IncorrectLogin -->
+    <test started-at="2021-09-18T16:42:55Z" name="TC_01_CorrectLogin" finished-at="2021-09-18T16:43:25Z" duration-ms="29740">
+      <class name="loginTests.TC_01">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTests.TC_01@3f363cf5]" started-at="2021-09-18T11:42:55Z" name="startWebDriver" finished-at="2021-09-18T11:43:10Z" duration-ms="14614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_01_CorrectLogin()[pri:0, instance:loginTests.TC_01@3f363cf5]" started-at="2021-09-18T11:43:10Z" name="TC_01_CorrectLogin" finished-at="2021-09-18T11:43:22Z" duration-ms="11343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_CorrectLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTests.TC_01@3f363cf5]" started-at="2021-09-18T11:43:22Z" name="closeDriver" finished-at="2021-09-18T11:43:25Z" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTests.TC_01 -->
+    </test> <!-- TC_01_CorrectLogin -->
+    <test started-at="2021-09-18T16:42:55Z" name="TC_03_Logout" finished-at="2021-09-18T16:43:30Z" duration-ms="34272">
+      <class name="loginTests.TC_03">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTests.TC_03@549621f3]" started-at="2021-09-18T11:42:55Z" name="startWebDriver" finished-at="2021-09-18T11:43:21Z" duration-ms="25189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_03_Logout()[pri:0, instance:loginTests.TC_03@549621f3]" started-at="2021-09-18T11:43:21Z" name="TC_03_Logout" finished-at="2021-09-18T11:43:29Z" duration-ms="8505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Logout -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTests.TC_03@549621f3]" started-at="2021-09-18T11:43:29Z" name="closeDriver" finished-at="2021-09-18T11:43:30Z" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTests.TC_03 -->
+    </test> <!-- TC_03_Logout -->
+  </suite> <!-- RegressionAutomatedQA -->
 </testng-results>
